@@ -33,7 +33,8 @@ std::map<std::string, TokenType> keywords = {
 	{"in", IN},
 	{"true", TRUE},						// booleans
 	{"false", FALSE},
-	{"int", INT}						// number types
+	{"int", INT},						// number types
+	{"as", AS}							// cast
 };
 
 TokenType lookupIdentifier(std::string identifier) {

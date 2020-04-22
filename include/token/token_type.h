@@ -8,6 +8,7 @@ enum TokenType {
 	BREAK_LINE,
 	TAB,
 	IDENT,
+	
 	BYTE,
 	CHAR,
 	RUNE,
@@ -23,6 +24,8 @@ enum TokenType {
 	COMPLEX,
 	COMPLEX64,
 	COMPLEX128,
+
+	AS,
 
 	STRING,
 	SET,
